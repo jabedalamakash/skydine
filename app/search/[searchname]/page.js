@@ -30,11 +30,11 @@ const page = ({params}) => {
     return (
         <> 
         <section className='w-full sm:w-[80%] px-5 mx-auto sm:px-0'>
-        <h1>You are Searched for {searchname} </h1>
+        <h1 className='my-10'>You are Searched for {searchname} </h1>
 
         {console.log(data)}
         {data===null?<>
-        <h1 className='text-3xl sm:text-5xl  w-full h-screen p-32 sm:p-10 text-center  font-bold flex justify-center sm:items-center'>Not found</h1></>
+        <h1 className='text-3xl sm:text-5xl   w-full h-screen p-32 sm:p-10 text-center  font-bold flex justify-center sm:items-center'>Not found</h1></>
         :<>
         <main className='grid grid-cols-1 gap-10 sm:grid-cols-2 mb-10'>
 

@@ -7,19 +7,21 @@ import Btn from './Btn';
 
 const Nav = () => {
     return (
+        <>
         <div className='bg-white w-full'>
 
             <nav className='sm:w-[80%] px-5 sm:px-0 py-10 items-center mx-auto flex  justify-between '>
                 <div>
                     <Link href="/">
-                    <Image
+                    {/* <Image
                     
                     src={"/images/tastyhut.png"}
                     height={24}
                     width={125}
                     alt="logo"
                     priority
-                    className=""/>
+                    className=""/> */}
+                    <h1 className='font-bold text-3xl text-blue-600'>Sky's Dine</h1>
                     </Link>
 
                 </div>
@@ -29,6 +31,7 @@ const Nav = () => {
                 </div>
             </nav>
         </div>
+        </>
     );
 };
 
